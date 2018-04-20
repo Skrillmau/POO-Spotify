@@ -213,7 +213,7 @@ public class Spotify {
 											"ID: " + respuesta.getId() + " \n" + "Nombre: "
 													+ (respuesta.getUsuario().getNombre()) + ". \n" + "Contraseña: "
 													+ (respuesta.getUsuario().getContraseña()) + ". \n" + "Email: "
-													+ (respuesta.getUsuario().getCorreoElectronico()) + "Tipo: "
+													+ (respuesta.getUsuario().getCorreoElectronico()) + "\n Tipo: "
 													+ (respuesta.getTipo()) + "\n");
 									break;
 								case 2:
@@ -295,10 +295,10 @@ public class Spotify {
 											cuenta = cuentas.get(a);
 											archivo.borrarCuenta(cuenta.getUsuario().getCodigo());
 											cuentas.remove(cuenta);
-											cuenta.setTipo("Premium");
-											;
+											cuenta.setTipo("Premium");	
 											cuentas.add(cuenta);
 											archivo.guardarCuentas(cuentas);
+											respuesta.setTipo("Premium");
 											JOptionPane.showMessageDialog(null, "Cuenta actualizada exitosamente ");
 										}
 									}

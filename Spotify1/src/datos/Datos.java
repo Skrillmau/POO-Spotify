@@ -50,7 +50,7 @@ public class Datos {
 	public boolean guardarMetodo(String x) {
 		try {
 			FileWriter fw;
-			fw = new FileWriter(this.ruta, true);
+			fw = new FileWriter(this.ruta4, true);
 			BufferedWriter bw = new BufferedWriter(fw);
 			String info = x;
 			bw.write(info);
