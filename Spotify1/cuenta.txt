@@ -1,0 +1,5 @@
+0,0,Santiago,1234,santiago.candil@gmail.com,free,0.0
+0,0,santiago,san,sfg,free,0.0
+0,1,freddy,freddy.costeño@gmail.com,0505,free,0.0
+0,2,danimediaz,1234,danimediaz,free,0.0
+0,3,nikolas,123,hola,Premium,0.0

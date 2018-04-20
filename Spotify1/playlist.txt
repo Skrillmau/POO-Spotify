@@ -1,0 +1,8 @@
+0,0,mi musica,mi musica fav,true,true
+0,1,aburrimiento,musica normal,false,false
+0,2,nueva musica,descubrimiento,true,false
+0,2,lista1,romantico,false,true
+0,3,lalaland,la mejor lista del mundo,true,true
+3,4,opopoopo,deeddede,true,true,0
+3,5,feef,dwdwdw,true,false
+3,6,pruebahoy,pruebahoy,true,true,1
